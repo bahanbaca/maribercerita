@@ -1,0 +1,48 @@
+.navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar li {
+    color: #616161;
+}
+
+.navbar a {
+    color: #BDBDBD;
+}
+
+.navbar-collapse.collapse.in ul {
+    background-color: #424242;
+
+}
+
+.navbar-solid {
+    background-color: #424242;
+    transition: background-color 1s ease 0s;
+    box-shadow: 0 0 4px grey;
+
+    .navbar brand{
+        color: #EEEEEE;
+        transition: color 1s ease 0s;
+    }
+
+    .navbar nav {
+        > li {
+            > a {
+                color: #EEEEEE;
+                transition: color 1s ease 0s;
+            }
+        }        
+    }
+}
